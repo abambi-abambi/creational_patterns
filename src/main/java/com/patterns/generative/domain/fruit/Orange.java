@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
-public class Orange extends AbstractFruit {
+public class Orange extends Fruit {
 
     private FruitType fruitType;
 
